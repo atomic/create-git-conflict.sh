@@ -1,0 +1,14 @@
+10062  4/28/2015 19:49  # start from here
+10063  4/28/2015 19:51  ./create-git-conflict.sh --run
+10064  4/28/2015 19:52  git status
+10065  4/28/2015 19:52  vim *
+10066  4/28/2015 19:52  git diff
+10067  4/28/2015 19:52  git add .
+10068  4/28/2015 19:52  git status
+10069  4/28/2015 19:52  git commit
+10070  4/28/2015 19:53  git status
+10071  4/28/2015 19:54  git checkout master
+10073  4/28/2015 19:55  git pull origin master --all
+10074  4/28/2015 19:55  git branch --list
+10078  4/28/2015 20:00  git merge a
+10081  4/28/2015 20:00  git push
